@@ -1,26 +1,38 @@
 body{
-	
-	
-	height: 100vh;
-	display: grid;
 
-}
-header{
-	/*background-image: url(https://wallpapercave.com/wp/wp4649492.jpg);*/
-	height: 720px;
-	border: 1px solid black;
-	
-}
-main{
-	/*background: linear-gradient(175deg, #07141a 0%, #2a262d 16%, #4b3842 33%, #6d4b58 50%, #925e6f 66%, #b87286 83%, #df879f 100%);*/
 }
 
 .lofi-banner{
-	margin-top: 100px;
-	margin-left: 100px;
-	place-items: center;
-	border: 1px solid red;
+	margin: -8px;
+	background-image: url(https://memestatic.fjcdn.com/large/pictures/53/75/53757b_6741239.jpg);
+	min-height: 100vh;
+	padding: 50px 20px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+
+nav{
+	padding: 10px;
+	margin-top: 8px;
+	margin-left: -8px;
+	margin-right: -8px;
+	background-color: #874079;
+	width: 100%;
+	position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 100px;
+}
+main{
+	padding: 20px;
+	background:linear-gradient(174deg, #014d78 0%, #03557f 16%, #045e87 33%, #05668f 50%, #066f96 66%, #07789e 83%, #0781a6 100%);
+	margin-top: -20px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.story{
 	display: grid;
-	width: 400px;
-	height: 400px;
+	width: 500px;
 }
