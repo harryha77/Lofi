@@ -1,10 +1,26 @@
 body{
-	background: linear-gradient(174deg, #1c0e27 0%, #1f246d 16%, #24468b 33%, #2769a4 50%, #298cb9 66%, #2ab3cc 83%, #38dad2 100%);
+	
+	
 	height: 100vh;
 	display: grid;
 
 }
-.lofi-banner{
+header{
+	/*background-image: url(https://wallpapercave.com/wp/wp4649492.jpg);*/
 	height: 720px;
-	background-image: url(img/bc.jpeg);
+	border: 1px solid black;
+	
+}
+main{
+	/*background: linear-gradient(175deg, #07141a 0%, #2a262d 16%, #4b3842 33%, #6d4b58 50%, #925e6f 66%, #b87286 83%, #df879f 100%);*/
+}
+
+.lofi-banner{
+	margin-top: 100px;
+	margin-left: 100px;
+	place-items: center;
+	border: 1px solid red;
+	display: grid;
+	width: 400px;
+	height: 400px;
 }
