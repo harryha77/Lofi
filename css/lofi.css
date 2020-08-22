@@ -1,35 +1,78 @@
 body{
-
+	background-color: #60a6b0;
 }
 
 .lofi-banner{
-	margin: -8px;
-	background-image: url(https://memestatic.fjcdn.com/large/pictures/53/75/53757b_6741239.jpg);
+	background-image: url(https://miro.medium.com/max/3840/1*juVBap0-3xF0sDHRxcVM6Q.jpeg);
 	min-height: 100vh;
 	padding: 50px 20px;
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
 }
+.wrapper{
+	border-radius: 50px;
+	margin-left: 200px;
+	margin-top: 200px;
+	display: grid;
+	height: 500px;
+	width: 500px;
+	background-color: rgba(96, 166, 176, 0.6)
+}
 
 nav{
+	box-shadow: 0 5px 8px rgba(0, 0, 0,.2);
+	border: 1px solid #303840;
+	height: 100px;
 	padding: 10px;
-	margin-top: 8px;
-	margin-left: -8px;
-	margin-right: -8px;
-	background-color: #874079;
-	width: 100%;
+	background-color: #f39188;
 	position: sticky;
-    top: 0;
-    z-index: 1;
-    height: 100px;
+	top: 0;
+	
 }
+
+nav .logo{
+	display: block;
+	width: 300px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -20px;
+	margin-left: 30px;
+	background: url(C:/Users/havla/Desktop/html/Lofi/img/LOFI_SIGN_LOGO.jpg) no-repeat 0 0 ;
+	background-size: 35%;
+	overflow: hidden;
+	text-indent: -999px;
+}
+nav ul{
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #111111;
+	text-decoration: none;
+	padding: 35px 10px;
+	line-height: 30px;
+}
+
 main{
 	padding: 20px;
-	background:linear-gradient(174deg, #014d78 0%, #03557f 16%, #045e87 33%, #05668f 50%, #066f96 66%, #07789e 83%, #0781a6 100%);
-	margin-top: -20px;
-	margin-left: -8px;
-	margin-right: -8px;
+	
+	
 }
 
 .story{
