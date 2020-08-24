@@ -1,5 +1,6 @@
 body{
 	background-color: #60a6b0;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .lofi-banner{
@@ -13,11 +14,34 @@ body{
 .wrapper{
 	border-radius: 50px;
 	margin-left: 200px;
-	margin-top: 200px;
-	display: grid;
+	margin-top: 100px;
+	display: inline-grid;
 	height: 500px;
 	width: 500px;
-	background-color: rgba(96, 166, 176, 0.6)
+	background-color: rgba(96, 166, 176, 0.6);
+
+}
+
+a.cta, 
+button.cta{
+	background: #bc5055;
+	color: white;
+	font-weight: bold;
+	font-size:  30px;
+	padding: 20px 30px;
+	border-radius:  10px;
+	text-decoration: none;
+	width: 300px;
+
+}
+
+a.cta.alt,
+button.cta.alt{
+	background-color: #38829d;
+	box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+	width: 190px;
+	height: 40px;
+
 }
 
 nav{
@@ -40,7 +64,7 @@ nav .logo{
 	left: 0;
 	margin-top: -20px;
 	margin-left: 30px;
-	background: url(C:/Users/havla/Desktop/html/Lofi/img/LOFI_SIGN_LOGO.jpg) no-repeat 0 0 ;
+	background: url('../img/LOFI_SIGN_LOGO.jpg') no-repeat 0 0 ;
 	background-size: 35%;
 	overflow: hidden;
 	text-indent: -999px;
@@ -69,10 +93,25 @@ nav ul li a{
 	line-height: 30px;
 }
 
-main{
-	padding: 20px;
-	
-	
+.more-info{
+	text-align: center;
+	padding: 30px;
+
+}
+
+.highlight{
+	background-color: #f4dfdc;
+}
+
+h1,h2{
+	font-weight: bold;
+
+	font-size: 35px;
+}
+
+p{
+	font-size: 30px;
+	margin: 30px;
 }
 
 .story{
