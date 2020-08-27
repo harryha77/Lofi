@@ -32,6 +32,9 @@ button.cta{
 	border-radius:  10px;
 	text-decoration: none;
 	width: 300px;
+	cursor: pointer;
+	outline: none;
+
 
 }
 
@@ -52,6 +55,7 @@ nav{
 	background-color: #f39188;
 	position: sticky;
 	top: 0;
+	z-index: 1;
 	
 }
 
@@ -93,6 +97,7 @@ nav ul li a{
 	line-height: 30px;
 }
 
+
 .more-info{
 	text-align: center;
 	padding: 30px;
@@ -109,12 +114,115 @@ h1,h2{
 	font-size: 35px;
 }
 
+
 p{
 	font-size: 30px;
 	margin: 30px;
 }
-
-.story{
-	display: grid;
-	width: 500px;
+.sep {
+    width: 470px;
+    height: 10px;
+    background-color: #111111;
+    margin: 70px auto;
 }
+.story{
+	text-align: center;
+	width: 960px;
+    margin: 0 auto;
+}
+.story h3{
+	font-size: 40px;
+}
+
+.nb-list{
+	width: 470px;
+	padding: 20px 20px 5px 20px;
+	box-sizing: border-box;
+	background-color: #EDEDED;
+	float: left;
+	margin: 0 20px 20px 0;
+	position: relative;
+}
+
+.nb-list li{
+	height: 70px;
+	border-radius: 10px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 20px;
+	padding: 6px 20px;
+	box-sizing: border-box;
+}
+
+.c1{background-color: #e9bfb6}
+.c2{background-color: rgba(0,0,0,0.1);}
+.c3{background-color: #bc5055;
+	position:absolute;
+	top:70px;
+	left: 70px;
+	right: -30px;
+	transform: rotate(6deg);
+	box-shadow: 0 2px 14px rgba(0,0,0,.3)}
+.c4{background-color: #f39188}
+.c5{background-color: #364b5e}
+.c6{background-color: #d5a382}
+
+footer{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.popup{
+	/*display: none;*/
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	
+}
+
+.popup.blanket{
+	background-color:  rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+}
+
+.popup.content{
+	box-sizing: border-box;
+	width: 960px;
+	padding: 30px 40px;
+}
+
+/*<div class="popup">
+		<div class="blanket"></div>
+		<div class="content">
+			<h2>Fill in your details</h2>
+			<form>
+				<div class="item">
+					<label>Your First Name</label>
+					<input type="text" placeholder="Maria" value="Maria">
+				</div>
+				<div class="item">
+					<label>Your Last Name</label>
+					<input type="text" placeholder="Skłodowska-Curie">
+				</div>	
+				<div class="item">
+					<label>Email adress</label>
+					<input type="text" placeholder="radioactive@sorbona.com">
+				</div>	
+				<div class="item">
+					<label>Nickname</label>
+					<input type="text" placeholder="TwoTimesNobel">
+				</div>		
+			</form>
+			<button class="cta">Subsribe</button>
+			<button class="close">Close</button>
+		</div>*/
