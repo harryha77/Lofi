@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/lofi.css">
+	<script type="text/javascript" src="script.js"></script>
 	<link rel="icon" href="img/logo.jpeg">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 	<title>Lofi</title>
@@ -25,7 +26,7 @@
 	<nav>
 		<a href="#" class="logo">Lo-fi</a>
 		<ul class="ul">
-			<li class="li"><a href="#">Sign up</a></li>
+			<li class="li"><a href="javasctip:()" onclick="showPopup();">Sign up</a></li>
 			<li class="li"><a href="#story">The Story</a></li>
 			<li class="li"><a href="#more-info">More info</a></li>
 		</ul>
@@ -38,7 +39,7 @@
 				<p>Every week we update our list with music from <span class="highlight">the best Lo-fi aritsts</span>.<br>
 					Those lists are automaticly send to you and throu our website you can mix them,<br>
 					name them and download them as you wish.</p>
-				<button class="cta">Sign me up!</button>	
+				<button class="cta" onclick="showPopup();">Sign me up!</button>	
 		</div>
 		<div id="story"></div>
 		<div class="sep" ></div>
@@ -64,7 +65,7 @@
 	<footer>
 		<h4>Harry from <a href="https://www.skillshare.com/profile/Harry-Ha/2038295">Skillshare</a></h4>
 	</footer>
-	<div class="popup">
+	<div class="popup" id="popup">
 		<div class="blanket"></div>
 		<div class="content">
 			<h2>Fill in your details</h2>
@@ -87,7 +88,7 @@
 				</div>		
 			</form>
 			<button class="cta">Subsribe</button>
-			<button class="close">Close</button>
+			<button class="close" onclick="hidePopup();">Close</button>
 		</div>
 	</div>
 </body>
